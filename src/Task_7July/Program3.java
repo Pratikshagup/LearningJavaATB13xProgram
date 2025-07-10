@@ -8,9 +8,7 @@ public class Program3 {
 
 abstract class Program{
     abstract void func();
-    Program(){
-
-    }
+    Program(){}
 }
 
 class childprog extends Program{
@@ -19,8 +17,6 @@ class childprog extends Program{
         System.out.println("Method from abstract class");
     }
     childprog(){
-        super.Program(){
-            System.out.println("Abstract class constructor called");
-        }
+        //super.Program();
     }
 }
