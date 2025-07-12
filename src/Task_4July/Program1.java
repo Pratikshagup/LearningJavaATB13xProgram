@@ -16,7 +16,7 @@ class Student{
         System.out.println("Showing Details");
     }
     Student(){
-        System.out.println("Student contructor");
+        System.out.println("Student constructor");
     }
 }
 
