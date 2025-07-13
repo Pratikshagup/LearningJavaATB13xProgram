@@ -13,5 +13,4 @@ public enum Locators {
     Locators(String locator) {
         this.locator = locator;
     }
-
 }
