@@ -1,4 +1,4 @@
-package ex_Collections.Map;
+package ex_Lab_Collection.Map;
 
 import java.util.HashMap;
 import java.util.Map;

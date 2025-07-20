@@ -1,11 +1,11 @@
-package ex_Collections.Map;
+package ex_Lab_Collection.Map;
 
 import java.util.HashMap;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import java.util.TreeMap;
 
-public class Map1 {
+public class Lab_Map1 {
     public static void main(String[] args) {
         Map m1 = new HashMap(10);
         m1.put("name","Pratiksha");
