@@ -7,13 +7,12 @@ public class Program4 {
     public static void main(String[] args) {
         String input = "aabbccddeeff";
 
-        Map<Character,Integer> freq = new HashMap<>();
-        for(char c : input.toCharArray())
-        {
-            freq.put(c,freq.getOrDefault(c,0)+1);
+        Map<Character, Integer> freq = new HashMap<>();
+        for (char c : input.toCharArray()) {
+            freq.put(c, freq.getOrDefault(c, 0) + 1);
         }
-        for( Character key : freq.keySet()){
-            System.out.println(key+" -> " +freq.get(key));
+        for (Character key : freq.keySet()) {
+            System.out.println(key + " -> " + freq.get(key));
         }
     }
 }

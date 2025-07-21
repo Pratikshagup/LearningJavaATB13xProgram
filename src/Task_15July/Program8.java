@@ -12,9 +12,19 @@ public class Program8 {
         {
             freq.put(c,freq.getOrDefault(c,0)+1);
         }
-        for( Character key : freq.keySet()){
-            System.out.println(key+" -> " +freq.get(key));
+        char mostFrequentChar = ' ';
+        int maxFreq = 0;
+
+        // Use keySet() to find the character with maximum frequency
+        for (Character key : freq.keySet()) {
+            int currentFreq = freq.get(key);
+            if (currentFreq > maxFreq) {
+                maxFreq = currentFreq;
+                mostFrequentChar = key;
+            }
         }
+
+        System.out.println("Most frequent character is: " + mostFrequentChar + "(" + maxFreq+ "times)");
 
     }
 }

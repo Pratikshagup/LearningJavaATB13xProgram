@@ -6,7 +6,7 @@ import java.util.TreeMap;
 
 public class Program3 {
     public static void main(String[] args) {
-        Map hash = new HashMap();
+        Map<String,Integer> hash = new HashMap<>();
         hash.put("Ravi",80);
         hash.put("Anjali",95);
         hash.put("Dipak",75);
